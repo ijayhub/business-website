@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+:root{
+
+    --color2--:#620a62;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*.............................. index page............. */
+.hero-bg{
+    background-image:url("../img/hero_bg.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 60% 60%;
+    background-size:cover;
+}
+.nav-heading{
+    font-family:'Dancing Script', cursive ;
+    
+}
+.nav-heading:hover{
+    color:var(--color2--);
+}
+.links{
+
+    font-family:'Dancing Script', cursive ;
+    cursor:pointer;
+    
+}
+a{
+    list-style: none;
+}
+.header-title{
+    padding:200px;
+    font-family:'Dancing Script', cursive ;
+}
+.btn{
+    background-color:var(--color2--);
+    font-family:sans-serif;
+    margin-left:20px;
+}
+.parallax{
+    background-image: url('../img/purple.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:50vh;
+    font-family:'Dancing Script', cursive ;
+    padding:100px;
+}
+
+.serve-heading{
+    padding-top:40px;
+}
+.serve{
+    font-family:'Dancing Script', cursive ;
+    color:var(--color2--);
+}
+.footer{
+    background-color:var(--color2--);
+    padding:100px;
+}
+ 
+/*.................. about us page ................*/
+.body{
+    background-image:url("../img/r1.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    
+}
+.about_us{
+    color:var(--color2--);
+    font-family:'Dancing Script', cursive ;
+}
+
+/*........................... service page.................. */
+.icons{
+    background-color:var(--color2--);
+}
+.service{
+    background-image:url('../img/snacks.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+
+}
+/*................... contact page........................... */
+.nav-contact{
+    font-family:'Dancing Script', cursive ;
+}
+.media{
+    font-family:'Dancing Script', cursive ;
+}
+.link-contact{
+    margin-left:30px;
+    font-family:'Dancing Script', cursive ;
+    cursor:pointer;
+}
+.textarea{
+    resize:none;
+}
+.btn-form{
+    background-color:var(--color2--)
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Website</title>
+</head>
+<body>
+    <!-- ....................navigation............. -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <a href="#"class="navbar-brand"><img src="./img/restaurant_black_24dp.svg" alt="logo "><small class="text-dark nav-heading display-6 p-2">La cusine</small>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler"
+                type="button" data-bs-toggle="collapse"data-bs-target="#main-nav"aria-controls="main-nav" aria-expanded="false"aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link links text-dark h3">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About_us.html" class="nav-link links text-dark h3">Aboutus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Service_page.html" class="nav-link links text-dark h3">Service</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a href="contact_us.html"class="nav-link links text-dark h3">Contact</a>
+                    </li>
+                </ul>
+        
+            </div>
+
+        </div>
+    </nav>
+    <!-- .............end of nav -->
+
+    <!-- Form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-12 ">
+                <div>
+                    <h3 class="display-3 text-center pb-3 ">Fill the form to contact us</h3>
+                </div>
+                <form action="#">
+                    <div class="mb-3 ">
+                        <label for="Name" class="form-label">FirstName</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">LastName</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control textarea"rows="4"></textarea>
+                    </div>
+                    <input class="btn-form text-white rounded-pill btn-lg border-0" type="submit" value="Submit"/>
+                    
+                </form>
+                   
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 py-4">
+                <h3 class="display-3 fw-bold text-center text-dark media">Or social media handle@</h3>
+            </div>
+            <div class="row">
+      
+              <div class="col-12 col-md-4 col-lg-4 ">
+                  <a href="https://www.linkedin.com/in/ijeoma-igboagu-a062351b9/"target="_blank"><img src="./img/linkedin.svg"class=" rounded-circle img-fluid p-4 bg-primary " width="100px" height="100px"/></a>
+                  <p class="h3 fw-bold text-primary pt-2">LinkedIn</p>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 ">
+                <a href="https://www.instagram.com/ij.ijay/" target="_blank"><img src="./img/instagram (4).svg"class=" rounded-circle img-fluid p-4 bg-danger" width="100px" height="100px" /></a>
+                <p class="h3 fw-bold text-danger pt-2">Instagram</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 ">
+              <a href="https://twitter.com/ijaydimples" target="_blank"><img src="./img/twitter (2).svg"class= "rounded-circle img-fluid p-4 bg-primary"width="100px" height="100px" /></a>
+              <p class="h3 fw-bold text-primary pt-2">Twitter</p>
+          </div>
+
+    
+        </div>
+            
+    </div>
+
+                
+  <script src="./assets/bootstrap.min.js"></script>              
+</body>
+</html>
